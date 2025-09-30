@@ -13,7 +13,7 @@ a {
     color: #333;
     text-decoration: none;
 }
-h1 {
+h1, h2, h3 {
     padding-bottom: 20px;
 }
 
@@ -40,6 +40,26 @@ h1 {
     background: #f7c08a;
     color: #333;
 }
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
 /* navbar */
 #navbar {
     background: #333;
@@ -88,4 +108,49 @@ h1 {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/* info */
+#info {
+    height: 400px;
+}
+#info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#info .info-content p {
+    padding-bottom: 30px;
+}
+#info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+/* features */
+#features .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features .box i {
+    margin-bottom: 10px;
+}
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+}
+/* claer */
+.clear {
+    clear: both;
 }
